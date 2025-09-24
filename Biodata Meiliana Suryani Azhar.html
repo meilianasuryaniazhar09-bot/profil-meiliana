@@ -1,0 +1,1014 @@
+<!DOCTYPE html>
+<!-- saved from url=(0076)file:///C:/kelompok%2013%20tkj%202/Biodata%20Meiliana%20Suryani%20Azhar.html -->
+<html lang="id"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Meiliana Suryani Azhar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Biodata Meiliana Suryani Azhar_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./Biodata Meiliana Suryani Azhar_files/all.min.css">
+    <style>
+        :root {
+            --dark-bg: #658C6A;
+            --primary-pink: #D6708F;
+            --primary-green: #7BBF7D;
+            --text-dark: #333333;
+            --text-light: #666666;
+            --text-white: #FFFFFF;
+            --card-bg: rgba(255, 255, 255, 0.9);
+            --card-hover-bg: rgba(255, 255, 255, 1);
+            --modal-bg: rgba(0, 0, 0, 0.7);
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px;
+            background-color: var(--dark-bg);
+            color: var(--text-dark);
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+            overflow-x: hidden;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        /* --- Animasi Bintang Latar Belakang --- */
+        .stars {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+            z-index: 0;
+        }
+
+        .star {
+            position: absolute;
+            background-color: var(--text-white);
+            border-radius: 50%;
+            animation-duration: 20s, 10s;
+            animation-timing-function: linear, ease-in-out;
+            animation-iteration-count: infinite, infinite;
+            opacity: 0;
+            box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+        }
+
+        .star:nth-child(1) { top: 10%; left: 20%; width: 2.5px; height: 2.5px; animation-name: starMove1, fadeInOut; animation-delay: 0s, 1s; }
+        .star:nth-child(2) { top: 50%; left: 70%; width: 2px; height: 2px; animation-name: starMove2, fadeInOut; animation-delay: 5s, 6s; }
+        .star:nth-child(3) { top: 80%; left: 40%; width: 3px; height: 3px; animation-name: starMove3, fadeInOut; animation-delay: 2s, 3s; }
+        .star:nth-child(4) { top: 30%; left: 90%; width: 1.5px; height: 1.5px; animation-name: starMove4, fadeInOut; animation-delay: 8s, 9s; }
+        .star:nth-child(5) { top: 60%; left: 10%; width: 2.5px; height: 2.5px; animation-name: starMove5, fadeInOut; animation-delay: 11s, 12s; }
+        .star:nth-child(6) { top: 25%; left: 65%; width: 2px; height: 2px; animation-name: starMove6, fadeInOut; animation-delay: 14s, 15s; }
+        .star:nth-child(7) { top: 75%; left: 15%; width: 3px; height: 3px; animation-name: starMove7, fadeInOut; animation-delay: 3s, 4s; }
+        .star:nth-child(8) { top: 45%; left: 55%; width: 1.5px; height: 1.5px; animation-name: starMove8, fadeInOut; animation-delay: 7s, 8s; }
+        .star:nth-child(9) { top: 90%; left: 80%; width: 2.5px; height: 2.5px; animation-name: starMove9, fadeInOut; animation-delay: 9s, 10s; }
+        .star:nth-child(10) { top: 5%; left: 5%; width: 2px; height: 2px; animation-name: starMove10, fadeInOut; animation-delay: 13s, 14s; }
+        .star:nth-child(11) { top: 85%; left: 30%; width: 3px; height: 3px; animation-name: starMove11, fadeInOut; animation-delay: 16s, 17s; }
+        .star:nth-child(12) { top: 15%; left: 45%; width: 2.5px; height: 2.5px; animation-name: starMove1, fadeInOut; animation-delay: 1s, 2s; }
+        .star:nth-child(13) { top: 35%; left: 5%; width: 2px; height: 2px; animation-name: starMove2, fadeInOut; animation-delay: 6s, 7s; }
+        .star:nth-child(14) { top: 70%; left: 95%; width: 3px; height: 3px; animation-name: starMove3, fadeInOut; animation-delay: 4s, 5s; }
+        .star:nth-child(15) { top: 55%; left: 25%; width: 1.5px; height: 1.5px; animation-name: starMove4, fadeInOut; animation-delay: 10s, 11s; }
+        .star:nth-child(16) { top: 8%; left: 85%; width: 2.5px; height: 2.5px; animation-name: starMove5, fadeInOut; animation-delay: 12s, 13s; }
+        .star:nth-child(17) { top: 40%; left: 35%; width: 2px; height: 2px; animation-name: starMove6, fadeInOut; animation-delay: 15s, 16s; }
+        .star:nth-child(18) { top: 65%; left: 88%; width: 3px; height: 3px; animation-name: starMove7, fadeInOut; animation-delay: 7s, 8s; }
+        .star:nth-child(19) { top: 20%; left: 50%; width: 1.5px; height: 1.5px; animation-name: starMove8, fadeInOut; animation-delay: 9s, 10s; }
+        .star:nth-child(20) { top: 92%; left: 5%; width: 2.5px; height: 2.5px; animation-name: starMove9, fadeInOut; animation-delay: 10s, 11s; }
+        .star:nth-child(21) { top: 7% ; left: 60%; width: 2px; height: 2px; animation-name: starMove10, fadeInOut; animation-delay: 14s, 15s; }
+        .star:nth-child(22) { top: 78%; left: 65%; width: 3px; height: 3px; animation-name: starMove11, fadeInOut; animation-delay: 17s, 18s; }
+
+        @keyframes fadeInOut {
+            0%, 100% { opacity: 0; }
+            50% { opacity: 0.8; }
+        }
+        @keyframes starMove1 { 0% { transform: translateY(0) translateX(0); } 100% { transform: translateY(50px) translateX(30px); } }
+        @keyframes starMove2 { 0% { transform: translateY(0) translateX(0); } 100% { transform: translateY(-40px) translateX(-20px); } }
+        @keyframes starMove3 { 0% { transform: translateY(0) translateX(0); } 100% { transform: translateY(-30px) translateX(50px); } }
+        @keyframes starMove4 { 0% { transform: translateY(0) translateX(0); } 100% { transform: translateY(20px) translateX(-60px); } }
+        @keyframes starMove5 { 0% { transform: translateY(0) translateX(0); } 100% { transform: translateY(-10px) translateX(40px); } }
+        @keyframes starMove6 { 0% { transform: translateY(0) translateX(0); } 100% { transform: translateY(30px) translateX(-50px); } }
+        @keyframes starMove7 { 0% { transform: translateY(0) translateX(0); } 100% { transform: translateY(-60px) translateX(20px); } }
+        @keyframes starMove8 { 0% { transform: translateY(0) translateX(0); } 100% { transform: translateY(40px) translateX(10px); } }
+        @keyframes starMove9 { 0% { transform: translateY(0) translateX(0); } 100% { transform: translateY(-20px) translateX(-30px); } }
+        @keyframes starMove10 { 0% { transform: translateY(0) translateX(0); } 100% { transform: translateY(50px) translateX(50px); } }
+        @keyframes starMove11 { 0% { transform: translateY(0) translateX(0); } 100% { transform: translateY(-50px) translateX(-50px); } }
+
+        .main-container {
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .profile-header {
+            margin-bottom: 40px;
+            width: 100%;
+        }
+
+        .profile-photo-wrapper {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid var(--primary-pink);
+            box-shadow: 0 0 0 8px rgba(214, 112, 143, 0.4);
+            margin: 0 auto 20px auto;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+
+        .profile-photo-wrapper:hover {
+            transform: scale(1.05) rotate(-3deg);
+        }
+
+        .profile-photo {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .profile-name {
+            font-size: 2.8em;
+            font-weight: 700;
+            color: var(--text-white);
+            margin: 0;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .profile-title {
+            font-size: 1.2em;
+            color: var(--primary-pink);
+            margin: 5px 0 0;
+            font-weight: 500;
+        }
+
+        .card-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+            padding: 25px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: left;
+            color: var(--text-dark);
+            cursor: pointer;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-title {
+            font-size: 1.5em;
+            font-weight: 600;
+            color: var(--text-dark);
+            border-bottom: 2px solid var(--primary-pink);
+            padding-bottom: 10px;
+            margin-bottom: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .card-title .icon {
+            margin-right: 10px;
+            color: var(--primary-pink);
+            font-size: 0.9em;
+        }
+
+        .card-content {
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            transition: max-height 0.7s ease-in-out, opacity 0.5s ease-in;
+            padding-top: 0;
+        }
+
+        .card-content.show {
+            max-height: 1000px;
+            opacity: 1;
+            padding-top: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            padding: 10px 0;
+            position: relative;
+            padding-left: 25px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            color: var(--text-dark);
+        }
+
+        ul li:last-child {
+            border-bottom: none;
+        }
+
+        ul li::before {
+            content: "◆";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            color: var(--primary-green);
+        }
+
+        ul li strong {
+            font-weight: 500;
+            color: var(--text-dark);
+            display: inline-block;
+            min-width: 160px;
+            margin-right: 10px;
+        }
+
+        ol {
+            list-style: none;
+            padding-left: 0;
+            counter-reset: my-counter;
+        }
+
+        ol li {
+            padding: 5px 0;
+            position: relative;
+            padding-left: 25px;
+            border: none;
+            margin: 0;
+            counter-increment: my-counter;
+            color: var(--text-dark);
+        }
+
+        ol li::before {
+            content: counter(my-counter) ".";
+            position: absolute;
+            left: 0;
+            color: var(--primary-green);
+            font-weight: bold;
+        }
+
+        .chart-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            width: 100%;
+        }
+
+        .chart-box {
+            background-color: var(--card-hover-bg);
+            padding: 20px;
+            border-radius: 8px;
+            width: 100%;
+            max-width: 350px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .chart-box h4 {
+            color: var(--text-dark);
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        .quote-section {
+            text-align: center;
+            margin-top: 50px;
+            padding: 30px;
+            background-color: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            border-left: 5px solid var(--primary-pink);
+            width: 100%;
+            cursor: pointer;
+        }
+        .quote-section blockquote {
+            font-size: 1.2em;
+            font-style: italic;
+            color: var(--text-dark);
+            margin: 0;
+        }
+        .quote-section cite {
+            display: block;
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: var(--text-light);
+        }
+
+        .bullet-list {
+            list-style: none;
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        .bullet-list li {
+            position: relative;
+            margin-bottom: 8px;
+            color: var(--text-dark);
+            padding: 0;
+            border: none;
+        }
+
+        .bullet-list li::before {
+            content: "•";
+            position: absolute;
+            left: -15px;
+            color: var(--primary-green);
+            font-size: 1.5em;
+            top: 50%;
+            transform: translateY(-50%);
+            line-height: 1;
+        }
+        
+        .card .card-title {
+            justify-content: center;
+        }
+
+        .quote-title {
+            font-size: 2em;
+            color: var(--primary-pink);
+            padding-bottom: 10px;
+            margin-bottom: 0;
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 10;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: var(--modal-bg);
+            padding-top: 100px;
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+        }
+
+        .modal-content {
+            background-color: var(--card-bg);
+            margin: auto;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            width: 80%;
+            max-width: 500px;
+            position: relative;
+            animation: slideIn 0.5s ease-out;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        
+        .close-btn {
+            color: var(--text-light);
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close-btn:hover,
+        .close-btn:focus {
+            color: var(--text-dark);
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .language-switcher {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .language-switcher button {
+            background-color: var(--primary-pink);
+            color: var(--text-white);
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            margin: 0 5px;
+        }
+
+        .language-switcher button:hover {
+            background-color: #c25979;
+            transform: scale(1.05);
+        }
+
+        @media (max-width: 768px) {
+            body { padding: 20px; }
+            .profile-name { font-size: 2.2em; }
+            .profile-title { font-size: 1em; }
+            .card-title { font-size: 1.3em; }
+            .profile-photo-wrapper {
+                width: 150px;
+                height: 150px;
+                margin-bottom: 15px;
+            }
+            ul li strong {
+                min-width: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="stars">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+    </div>
+
+    <div class="main-container">
+        <div class="language-switcher">
+            <button onclick="setLanguage(&#39;id&#39;)">Indonesian 🇮🇩</button>
+            <button onclick="setLanguage(&#39;en&#39;)">English 🇺🇸</button>
+            <button onclick="setLanguage(&#39;ar&#39;)">Arabic 🇸🇦</button>
+            <button onclick="setLanguage(&#39;jv&#39;)">Javanese 🇮🇩</button>
+        </div>
+
+        <div class="profile-header">
+            <div class="profile-photo-wrapper">
+                <img src="./Biodata Meiliana Suryani Azhar_files/WhatsApp Image 2025-09-23 at 1.09.33 PM.jpeg" alt="Profile Photo" class="profile-photo">
+            </div>
+
+            <h1 class="profile-name" data-id="profile-name" data-en="Meiliana Suryani Azhar" data-ar="ميليانا سورياني أزهار" data-jv="Meiliana Suryani Azhar">Meiliana Suryani Azhar</h1>
+            <p class="profile-title" data-id="profile-title" data-en="Student" data-ar="طالبة" data-jv="Siswi"></p>
+        </div>
+
+        <div class="card-container">
+            <div class="card" onclick="toggleCard(this)">
+                <h2 class="card-title" data-id="title-biodata" data-en="&lt;i class=&#39;fas fa-user icon&#39;&gt;&lt;/i&gt; Biodata" data-ar="&lt;i class=&#39;fas fa-user icon&#39;&gt;&lt;/i&gt; السيرة الذاتية" data-jv="&lt;i class=&#39;fas fa-user icon&#39;&gt;&lt;/i&gt; Biodata"><i class="fas fa-user icon"></i> Biodata</h2>
+                <div class="card-content">
+                    <ul>
+                        <li><strong data-id="label-nama" data-en="Name" data-ar="الاسم" data-jv="Jeneng">Nama:</strong> <span data-id="nama-value">Meiliana Suryani Azhar</span></li>
+                        <li><strong data-id="label-ttl" data-en="Place, Date of Birth" data-ar="مكان وتاريخ الميلاد" data-jv="Panggonan, Tanggal Lahir">Tempat, Tgl Lahir:</strong> <span data-id="ttl-value">Pekalongan, 29 Mei 2009</span></li>
+                        <li><strong data-id="label-alamat" data-en="Address" data-ar="العنوان" data-jv="Alamat">Alamat:</strong> <span data-id="alamat-value">Werdi dukuh kedawung RT 3 RW 6, Wonokerto, Pekalongan</span></li>
+                        <li><strong data-id="label-sekolah" data-en="School" data-ar="المدرسة" data-jv="Sekolah">Sekolah:</strong> <span data-id="sekolah-value">SMK Maarif NU Tirto</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" onclick="toggleCard(this)">
+                <h2 class="card-title" data-id="title-kontak" data-en="&lt;i class=&#39;fas fa-phone icon&#39;&gt;&lt;/i&gt; Contact Information" data-ar="&lt;i class=&#39;fas fa-phone icon&#39;&gt;&lt;/i&gt; معلومات الاتصال" data-jv="&lt;i class=&#39;fas fa-phone icon&#39;&gt;&lt;/i&gt; Info Kontak"><i class="fas fa-phone icon"></i> Informasi Kontak</h2>
+                <div class="card-content">
+                    <ul>
+                        <li><strong data-id="label-telp" data-en="Phone No." data-ar="رقم الهاتف" data-jv="Nomer Telpon">No. Telepon:</strong> <span data-id="telp-value">+62 857-7072-9805</span></li>
+                        <li><strong data-id="label-email" data-en="Email" data-ar="البريد الإلكتروني" data-jv="Email">Email:</strong> <span data-id="email-value">meilianasuryaniazhar09@gmail.com</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" onclick="toggleCard(this)">
+                <h2 class="card-title" data-id="title-riwayat-hidup" data-en="&lt;i class=&#39;fas fa-history icon&#39;&gt;&lt;/i&gt; Biography" data-ar="&lt;i class=&#39;fas fa-history icon&#39;&gt;&lt;/i&gt; السيرة الذاتية" data-jv="&lt;i class=&#39;fas fa-history icon&#39;&gt;&lt;/i&gt; Riwayat Urip"><i class="fas fa-history icon"></i> Riwayat Hidup</h2>
+                <div class="card-content">
+                    <p data-id="riwayat-hidup-text" data-en="My name is Meiliana Suryani Azhar. I was born in Pekalongan on May 29, 2009. I started my education at SDN Palumbon sari 02 Karawang Timur, then continued to SMPN 2 Wonokerto, and now I am studying at SMK Ma&#39;arif NU Tirto majoring in Computer and Network Engineering. At school, I am actively involved in the English Community extracurricular activity. I hope one day I can work for a large technology company and help my family." data-ar="اسمي ميليانا سورياني أزهار. وُلدتُ في بيكالونجان في 29 مايو 2009. بدأت تعليمي في مدرسة ابتدائية، ثم انتقلت إلى مدرسة إعدادية، والآن أدرس في مدرسة مهنية تخصص هندسة الكمبيوتر والشبكات. في المدرسة، أشارك بنشاط في نشاط المجتمع الإنجليزي اللامنهجي. آمل يومًا ما أن أتمكن من العمل في شركة تكنولوجيا كبيرة ومساعدة عائلتي." data-jv="Jenengku Meiliana Suryani Azhar. Aku lair ing Pekalongan tanggal 29 Mei 2009. Aku miwiti sekolah ing SDN Palumbon sari 02 Karawang Timur, banjur nerusake menyang SMPN 2 Wonokerto, lan saiki aku sinau ing SMK Ma&#39;arif NU Tirto jurusan Teknik Komputer lan Jaringan. Ing sekolah, aku aktif melu ekstrakurikuler English Community. Aku ngarep-arep mbesuk bisa kerja ing perusahaan teknologi gedhe lan mbantu keluargaku.">Nama saya Meiliana Suryani Azhar. Saya lahir di Pekalongan pada 29 Mei 2009. Saya memulai pendidikan di SDN Palumbon sari 02 Karawang Timur, lalu melanjutkan ke SMPN 2 Wonokerto, dan sekarang saya belajar di SMK Ma'arif NU Tirto jurusan Teknik Komputer dan Jaringan. Di sekolah, saya aktif mengikuti kegiatan ekstrakurikuler English Community. Saya berharap suatu hari nanti saya bisa bekerja di perusahaan teknologi besar dan membantu keluarga saya.</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="toggleCard(this)">
+                <h2 class="card-title" data-id="title-pendidikan" data-en="&lt;i class=&#39;fas fa-graduation-cap icon&#39;&gt;&lt;/i&gt; Education History" data-ar="&lt;i class=&#39;fas fa-graduation-cap icon&#39;&gt;&lt;/i&gt; تاريخ التعليم" data-jv="&lt;i class=&#39;fas fa-graduation-cap icon&#39;&gt;&lt;/i&gt; Riwayat Pendidikan"><i class="fas fa-graduation-cap icon"></i> Riwayat Pendidikan</h2>
+                <div class="card-content">
+                    <ul>
+                        <li><strong data-id="sd-label" data-en="Elementary School" data-ar="المدرسة الابتدائية" data-jv="SD">SD:</strong> <span data-id="sd-value">SDN Palumbonsari 2 (2015-2021)</span></li>
+                        <li><strong data-id="smp-label" data-en="Junior High School" data-ar="المدرسة الإعدادية" data-jv="SMP">SMP:</strong> <span data-id="smp-value">SMPN 2 Wonokerto (2021-2024)</span></li>
+                        <li><strong data-id="smk-label" data-en="Vocational High School" data-ar="المدرسة المهنية" data-jv="SMK">SMK:</strong> <span data-id="smk-value">SMK Maarif NU Tirto</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" onclick="toggleCard(this)">
+                <h2 class="card-title" data-id="title-hobi" data-en="&lt;i class=&#39;fas fa-chart-line icon&#39;&gt;&lt;/i&gt; Hobbies &amp; Activities" data-ar="&lt;i class=&#39;fas fa-chart-line icon&#39;&gt;&lt;/i&gt; الهوايات والأنشطة" data-jv="&lt;i class=&#39;fas fa-chart-line icon&#39;&gt;&lt;/i&gt; Hobi lan Kagiyatan"><i class="fas fa-chart-line icon"></i> Hobi &amp; Kegiatan</h2>
+                <div class="card-content">
+                    <div class="chart-container">
+                        <div class="chart-box">
+                            <h4 data-id="chart-title-1" data-en="Hobby Percentage" data-ar="نسبة الهوايات" data-jv="Persentase Hobi">Presentase Hobi</h4>
+                            <canvas id="hobiPieChart" width="310" height="310" style="display: block; box-sizing: border-box; height: 310px; width: 310px;"></canvas>
+                        </div>
+                        <div class="chart-box">
+                            <h4 data-id="chart-title-2" data-en="Hobby Frequency in a Week" data-ar="تكرار الهوايات في الأسبوع" data-jv="Frekuensi Hobi Seminggu">Frekuensi Hobi Dalam Seminggu</h4>
+                            <canvas id="kegiatanLineChart" width="310" height="155" style="display: block; box-sizing: border-box; height: 155px; width: 310px;"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" onclick="toggleCard(this)">
+                <h2 class="card-title" data-id="title-analisis" data-en="&lt;i class=&#39;fas fa-info-circle icon&#39;&gt;&lt;/i&gt; Analysis" data-ar="&lt;i class=&#39;fas fa-info-circle icon&#39;&gt;&lt;/i&gt; تحليل" data-jv="&lt;i class=&#39;fas fa-info-circle icon&#39;&gt;&lt;/i&gt; Analisis"><i class="fas fa-info-circle icon"></i> Analisis</h2>
+                <div class="card-content">
+                    <ul>
+                        <li><strong data-id="hobi-tersering-label" data-en="Most Frequent Hobby" data-ar="أكثر الهوايات تكراراً" data-jv="Hobi sing paling sering tak lakoni">Hobi yang paling sering saya lakukan:</strong> <span data-id="hobi-tersering-value" data-en="Playing games (4-5 hours per day)" data-ar="لعب الألعاب (4-5 ساعات يوميًا)" data-jv="Dolanan game (4-5 jam saben dina)">Bermain game (4-5 jam per hari)</span></li>
+                        <li><strong data-id="prestasi-label" data-en="Academic Achievement Percentage" data-ar="نسبة الإنجاز الأكاديمي" data-jv="Presentase Prestasi Akademik">Presentase Prestasi Akademik:</strong> <span data-id="prestasi-value">0%</span></li>
+                    </ul>
+                    <p data-id="analisis-text" data-en="Based on hobby data, the average time I spend on hobbies (playing games, watching movies, reading stories) is about 8-11 hours per day. So, in a week, the total time I dedicate to hobbies is approximately 56-77 hours." data-ar="بناءً على بيانات الهوايات، يبلغ متوسط الوقت الذي أمضيه في هواياتي (لعب الألعاب، مشاهدة الأفلام، قراءة القصص) حوالي 8-11 ساعة يوميًا. وبالتالي، في الأسبوع، يبلغ إجمالي الوقت الذي أخصصه للهوايات حوالي 56-77 ساعة." data-jv="Adhedhasar data hobi, rata-rata wektu sing tak entekake kanggo hobi (dolanan game, nonton film, maca crita) kira-kira 8-11 jam saben dina. Dadi, sajrone seminggu, total wektu sing tak gunakake kanggo hobi kira-kira 56-77 jam.">Berdasarkan data hobi, rata-rata waktu yang saya habiskan untuk hobi (bermain game, menonton film, membaca cerita) adalah sekitar 8-11 jam per hari. Jadi, dalam seminggu total waktu yang saya dedikasikan untuk hobi kurang lebih 56-77 jam.</p>
+                </div>
+            </div>
+
+            <div class="card" onclick="toggleCard(this)">
+                <h2 class="card-title" data-id="title-skill" data-en="&lt;i class=&#39;fas fa-award icon&#39;&gt;&lt;/i&gt; Achievements &amp; Skills" data-ar="&lt;i class=&#39;fas fa-award icon&#39;&gt;&lt;/i&gt; الإنجازات والمهارات" data-jv="&lt;i class=&#39;fas fa-award icon&#39;&gt;&lt;/i&gt; Prestasi &amp; Keterampilan"><i class="fas fa-award icon"></i> Prestasi &amp; Keterampilan</h2>
+                <div class="card-content">
+                    <ul>
+                        <li><strong data-id="prestasi-label2" data-en="Achievements" data-ar="الإنجازات" data-jv="Prestasi">Prestasi:</strong> <span data-id="prestasi-value2">-</span></li>
+                    </ul>
+                    <h3 class="card-subtitle" data-id="skills-title" data-en="Skills" data-ar="المهارات" data-jv="Keterampilan" style="color: var(--text-dark); margin-top: 15px; margin-bottom: 5px;">Keterampilan</h3>
+                    <ul class="bullet-list">
+                        <li data-id="skill1" data-en="Basic computer operation" data-ar="استخدام الكمبيوتر الأساسي" data-jv="Nglakokake komputer dhasar">Mengoperasikan komputer dasar</li>
+                        <li data-id="skill2" data-en="Simple image editing with Canva" data-ar="تحرير الصور البسيطة باستخدام كانفا" data-jv="Ngedit gambar gampang nganggo Canva">Editing gambar sederhana dengan Canva</li>
+                        <li data-id="skill3" data-en="Able to work in a team" data-ar="القدرة على العمل ضمن فريق" data-jv="Bisa kerja tim">Mampu bekerja sama dalam tim</li>
+                    </ul>
+                    <h3 class="card-subtitle" data-id="interests-title" data-en="Interests" data-ar="الاهتمامات" data-jv="Minat" style="color: var(--text-dark); margin-top: 15px; margin-bottom: 5px;">Minat</h3>
+                    <ul class="bullet-list">
+                        <li data-id="minat1" data-en="Technology and programming" data-ar="التكنولوجيا والبرمجة" data-jv="Teknologi lan pemrograman">Teknologi dan pemrograman</li>
+                        <li data-id="minat2" data-en="Playing online &amp; offline games" data-ar="لعب الألعاب عبر الإنترنت وغير المتصلة" data-jv="Dolanan game online &amp; offline">Bermain game online &amp; offline</li>
+                        <li data-id="minat3" data-en="Listening to music &amp; creating playlists" data-ar="الاستماع إلى الموسيقى وإنشاء قوائم تشغيل" data-jv="Ngrungokake musik &amp; nggawe playlist">Mendengarkan musik &amp; membuat playlist</li>
+                        <li data-id="minat4" data-en="Reading novels, fiction stories, or comics" data-ar="قراءة الروايات والقصص الخيالية أو القصص المصورة" data-jv="Maca novel, crita fiksi, utawa komik">Membaca novel, cerita fiksi, atau komik</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card" onclick="toggleCard(this)">
+                <h2 class="card-title" data-id="title-keagamaan" data-en="&lt;i class=&#39;fas fa-praying-hands icon&#39;&gt;&lt;/i&gt; Religious Values" data-ar="&lt;i class=&#39;fas fa-praying-hands icon&#39;&gt;&lt;/i&gt; القيم الدينية" data-jv="&lt;i class=&#39;fas fa-praying-hands icon&#39;&gt;&lt;/i&gt; Nilai Keagamaan"><i class="fas fa-praying-hands icon"></i> Nilai Keagamaan</h2>
+                <div class="card-content">
+                    <ol>
+                        <li data-id="keagamaan-1" data-en="Diligently perform religious duties" data-ar="المواظبة على أداء الواجبات الدينية" data-jv="Sregep ibadah">Rajin beribadah</li>
+                        <li data-id="keagamaan-2" data-en="Participate in weekly recitations/Yasinan" data-ar="المشاركة في مجالس التلاوة/ياسين الأسبوعية" data-jv="Ndelok pengajian/yasinan saben minggu">Mengikuti pengajian/yasinan setiap minggu</li>
+                        <li data-id="keagamaan-3" data-en="Greet others with salam" data-ar="إلقاء التحية بالسلام عند مقابلة الآخرين" data-jv="Ngucap salam pas ketemu wong liya">Mengucapkan salam saat bertemu orang lain</li>
+                        <li data-id="keagamaan-4" data-en="Recite prayers before studying" data-ar="قراءة الدعاء قبل الدراسة" data-jv="Maca donga sadurunge sinau">Membaca doa sebelum belajar</li>
+                        <li data-id="keagamaan-5" data-en="Respect parents and teachers according to religious teachings" data-ar="احترام الوالدين والمعلمين وفقًا للتعاليم الدينية" data-jv="Nghormati wong tuwa lan guru sesuai ajaran agama">Menghormati orang tua dan guru sesuai ajaran agama</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="card" onclick="toggleCard(this)">
+                <h2 class="card-title" data-id="title-visi-misi" data-en="&lt;i class=&#39;fas fa-compass icon&#39;&gt;&lt;/i&gt; Vision &amp; Mission" data-ar="&lt;i class=&#39;fas fa-compass icon&#39;&gt;&lt;/i&gt; الرؤية والرسالة" data-jv="&lt;i class=&#39;fas fa-compass icon&#39;&gt;&lt;/i&gt; Visi &amp; Misi"><i class="fas fa-compass icon"></i> Visi &amp; Misi</h2>
+                <div class="card-content">
+                    <div style="margin-bottom: 10px;">
+                        <h3 class="card-subtitle" data-id="visi-title" data-en="Vision" data-ar="الرؤية" data-jv="Visi" style="color: var(--text-dark); margin: 0 0 5px 0;">Visi</h3>
+                        <p data-id="visi-text" data-en="Achieve a good career in the field of technology while exploring the world." data-ar="تحقيق مسيرة مهنية جيدة في مجال التكنولوجيا أثناء استكشاف العالم." data-jv="Nggayuh karir sing apik ing bidang teknologi nalika njelajah donya." style="margin:0;">Mencapai karier yang baik di bidang teknologi sambil menjelajahi dunia.</p>
+                    </div>
+                    <div>
+                        <h3 class="card-subtitle" data-id="misi-title" data-en="Mission" data-ar="الرسالة" data-jv="Misi" style="color: var(--text-dark); margin: 0 0 5px 0;">Misi</h3>
+                        <ol>
+                            <li data-id="misi1" data-en="Study diligently and improve knowledge every day." data-ar="الدراسة بجد وتحسين المعرفة كل يوم." data-jv="Sinau kanthi sregep lan ningkatake kawruh saben dina.">Rajin belajar dan meningkatkan pengetahuan setiap hari.</li>
+                            <li data-id="misi2" data-en="Participate in positive activities at school and outside." data-ar="المشاركة في الأنشطة الإيجابية في المدرسة وخارجها." data-jv="Melu kagiyatan positif ing sekolah utawa ing njaba.">Mengikuti kegiatan positif di sekolah maupun di luar sekolah.</li>
+                            <li data-id="misi3" data-en="Develop skills according to interests and talents." data-ar="تطوير المهارات وفقًا للاهتمامات والمواهب." data-jv="Ngembanake keterampilan sesuai minat lan bakat.">Mengembangkan keterampilan sesuai minat dan bakat.</li>
+                            <li data-id="misi4" data-en="Maintain a good attitude and behavior towards others." data-ar="الحفاظ على موقف وسلوك جيد تجاه الآخرين." data-jv="Njaga sikap lan prilaku sing apik marang wong liya.">Menjaga sikap dan perilaku agar selalu baik terhadap orang lain.</li>
+                            <li data-id="misi5" data-en="Strive to help friends or people around who are in need." data-ar="السعي لمساعدة الأصدقاء أو الأشخاص المحتاجين." data-jv="Ngupaya mbantu kanca utawa wong ing saubengé sing butuh pitulung.">Berusaha membantu teman atau orang sekitar yang membutuhkan.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" onclick="toggleCard(this)">
+                <h2 class="card-title" data-id="title-cita-cita" data-en="&lt;i class=&#39;fas fa-bullseye icon&#39;&gt;&lt;/i&gt; Ambition &amp; Hope" data-ar="&lt;i class=&#39;fas fa-bullseye icon&#39;&gt;&lt;/i&gt; الطموح والأمل" data-jv="&lt;i class=&#39;fas fa-bullseye icon&#39;&gt;&lt;/i&gt; Cita-cita &amp; Pangarep-arep"><i class="fas fa-bullseye icon"></i> Cita-cita &amp; Harapan</h2>
+                <div class="card-content">
+                    <div style="margin-bottom: 10px;">
+                        <strong data-id="ambition-label" data-en="Ambition" data-ar="الطموح" data-jv="Cita-cita">Cita-cita:</strong> <span data-id="ambition-value" data-en="To become a successful entrepreneur to be able to create jobs for others." data-ar="أن أصبح رائدة أعمال ناجحة لأتمكن من توفير فرص عمل للآخرين." data-jv="Dadi pengusaha sukses supaya bisa mbukak lapangan kerja kanggo wong liya.">Menjadi pengusaha sukses agar dapat membuka lapangan pekerjaan untuk orang lain.</span>
+                    </div>
+                    <div>
+                        <strong data-id="hope-label" data-en="Future Hope" data-ar="أمل المستقبل" data-jv="Pangarep-arep Mbesuk">Harapan Masa Depan:</strong> <span data-id="hope-value" data-en="To get a job that matches my major so that the knowledge I have gained is not in vain. And I hope to graduate on time with good grades so I can make my parents proud." data-ar="الحصول على وظيفة تتناسب مع تخصصي حتى لا تضيع المعرفة التي اكتسبتها. وآمل أن أتخرج في الوقت المحدد بدرجات جيدة لأتمكن من أن أجعل والدي فخورين." data-jv="Entuk pegawean sing cocog karo jurusan supaya ilmu sing tak sinau ora muspra. Lan aku ngarep-arep bisa lulus sekolah tepat wektu kanthi biji sing apik supaya bisa nggawe wong tuwaku bangga.">Mendapatkan pekerjaan yang sesuai jurusan agar ilmu yang saya pelajari tidak sia-sia. Dan saya berharap bisa lulus sekolah tepat waktu dengan nilai yang baik agar dapat membanggakan orang tua.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="quote-section" onclick="toggleQuoteModal()">
+            <h2 class="quote-title">💖</h2>
+        </div>
+
+        <div id="quoteModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="toggleQuoteModal()">×</span>
+                <blockquote data-id="quote-text" data-en="If you&#39;re too scared to make mistakes, you won&#39;t be able to do anything." data-ar="إذا كنت خائفًا جدًا من ارتكاب الأخطاء، فلن تتمكن من فعل أي شيء." data-jv="Yen kowe wedi banget salah, kowe ora bakal bisa nglakoni apa-apa." style="color: var(--text-dark); font-size: 1.2em; font-style: italic;">"Jika kamu terlalu takut membuat kesalahan, kamu tidak akan bisa melakukan apa pun."</blockquote>
+                <cite data-id="quote-cite" data-en="- Vinsmoke Sanji" data-ar="- فينسموك سانجي" data-jv="- Vinsmoke Sanji" style="color: var(--text-light); display: block; margin-top: 10px; font-size: 0.9em;">- Vinsmoke Sanji</cite>
+            </div>
+        </div>
+    </div>
+
+    <script src="./Biodata Meiliana Suryani Azhar_files/chart.js.download"></script>
+    <script>
+        // Data terjemahan dalam objek JavaScript
+        const translations = {
+            'id': {
+                'profile-name': 'Meiliana Suryani Azhar',
+                'profile-title': '',
+                'title-biodata': "<i class='fas fa-user icon'></i> Biodata",
+                'label-nama': 'Nama:',
+                'nama-value': 'Meiliana Suryani Azhar',
+                'label-ttl': 'Tempat, Tgl Lahir:',
+                'ttl-value': 'Pekalongan, 29 Mei 2009',
+                'label-alamat': 'Alamat:',
+                'alamat-value': 'Werdi dukuh kedawung RT 3 RW 6, Wonokerto, Pekalongan',
+                'label-sekolah': 'Sekolah:',
+                'sekolah-value': 'SMK Maarif NU Tirto',
+                'title-kontak': "<i class='fas fa-phone icon'></i> Informasi Kontak",
+                'label-telp': 'No. Telepon:',
+                'telp-value': '+62 857-7072-9805',
+                'label-email': 'Email:',
+                'email-value': 'meilianasuryaniazhar09@gmail.com',
+                'title-riwayat-hidup': "<i class='fas fa-history icon'></i> Riwayat Hidup",
+                'riwayat-hidup-text': 'Nama saya Meiliana Suryani Azhar. Saya lahir di Pekalongan pada 29 Mei 2009. Saya memulai pendidikan di SDN Palumbon sari 02 Karawang Timur, lalu melanjutkan ke SMPN 2 Wonokerto, dan sekarang saya belajar di SMK Ma\'arif NU Tirto jurusan Teknik Komputer dan Jaringan. Di sekolah, saya aktif mengikuti kegiatan ekstrakurikuler English Community. Saya berharap suatu hari nanti saya bisa bekerja di perusahaan teknologi besar dan membantu keluarga saya.',
+                'title-pendidikan': "<i class='fas fa-graduation-cap icon'></i> Riwayat Pendidikan",
+                'sd-label': 'SD:',
+                'sd-value': 'SDN Palumbonsari 2 (2015-2021)',
+                'smp-label': 'SMP:',
+                'smp-value': 'SMPN 2 Wonokerto (2021-2024)',
+                'smk-label': 'SMK:',
+                'smk-value': 'SMK Maarif NU Tirto',
+                'title-hobi': "<i class='fas fa-chart-line icon'></i> Hobi & Kegiatan",
+                'chart-title-1': 'Presentase Hobi',
+                'chart-title-2': 'Frekuensi Hobi Dalam Seminggu',
+                'title-analisis': "<i class='fas fa-info-circle icon'></i> Analisis",
+                'hobi-tersering-label': 'Hobi yang paling sering saya lakukan:',
+                'hobi-tersering-value': 'Bermain game (4-5 jam per hari)',
+                'prestasi-label': 'Presentase Prestasi Akademik:',
+                'prestasi-value': '0%',
+                'analisis-text': 'Berdasarkan data hobi, rata-rata waktu yang saya habiskan untuk hobi (bermain game, menonton film, membaca cerita) adalah sekitar 8-11 jam per hari. Jadi, dalam seminggu total waktu yang saya dedikasikan untuk hobi kurang lebih 56-77 jam.',
+                'title-skill': "<i class='fas fa-award icon'></i> Prestasi & Keterampilan",
+                'prestasi-label2': 'Prestasi:',
+                'prestasi-value2': '-',
+                'skills-title': 'Keterampilan',
+                'skill1': 'Mengoperasikan komputer dasar',
+                'skill2': 'Editing gambar sederhana dengan Canva',
+                'skill3': 'Mampu bekerja sama dalam tim',
+                'interests-title': 'Minat',
+                'minat1': 'Teknologi dan pemrograman',
+                'minat2': 'Bermain game online & offline',
+                'minat3': 'Mendengarkan musik & membuat playlist',
+                'minat4': 'Membaca novel, cerita fiksi, atau komik',
+                'title-keagamaan': "<i class='fas fa-praying-hands icon'></i> Nilai Keagamaan",
+                'keagamaan-1': 'Rajin beribadah',
+                'keagamaan-2': 'Mengikuti pengajian/yasinan setiap minggu',
+                'keagamaan-3': 'Mengucapkan salam saat bertemu orang lain',
+                'keagamaan-4': 'Membaca doa sebelum belajar',
+                'keagamaan-5': 'Menghormati orang tua dan guru sesuai ajaran agama',
+                'title-visi-misi': "<i class='fas fa-compass icon'></i> Visi & Misi",
+                'visi-title': 'Visi',
+                'visi-text': 'Mencapai karier yang baik di bidang teknologi sambil menjelajahi dunia.',
+                'misi-title': 'Misi',
+                'misi1': 'Rajin belajar dan meningkatkan pengetahuan setiap hari.',
+                'misi2': 'Mengikuti kegiatan positif di sekolah maupun di luar sekolah.',
+                'misi3': 'Mengembangkan keterampilan sesuai minat dan bakat.',
+                'misi4': 'Menjaga sikap dan perilaku agar selalu baik terhadap orang lain.',
+                'misi5': 'Berusaha membantu teman atau orang sekitar yang membutuhkan.',
+                'title-cita-cita': "<i class='fas fa-bullseye icon'></i> Cita-cita & Harapan",
+                'ambition-label': 'Cita-cita:',
+                'ambition-value': 'Menjadi pengusaha sukses agar dapat membuka lapangan pekerjaan untuk orang lain.',
+                'hope-label': 'Harapan Masa Depan:',
+                'hope-value': 'Mendapatkan pekerjaan yang sesuai jurusan agar ilmu yang saya pelajari tidak sia-sia. Dan saya berharap bisa lulus sekolah tepat waktu dengan nilai yang baik agar dapat membanggakan orang tua.',
+                'quote-text': '"Jika kamu terlalu takut membuat kesalahan, kamu tidak akan bisa melakukan apa pun."',
+                'quote-cite': '- Vinsmoke Sanji'
+            },
+            'en': {
+                'profile-name': 'Meiliana Suryani Azhar',
+                'profile-title': 'Student',
+                'title-biodata': "<i class='fas fa-user icon'></i> Biodata",
+                'label-nama': 'Name:',
+                'nama-value': 'Meiliana Suryani Azhar',
+                'label-ttl': 'Place, Date of Birth:',
+                'ttl-value': 'Pekalongan, May 29, 2009',
+                'label-alamat': 'Address:',
+                'alamat-value': 'Werdi dukuh kedawung RT 3 RW 6, Wonokerto, Pekalongan',
+                'label-sekolah': 'School:',
+                'sekolah-value': 'SMK Maarif NU Tirto',
+                'title-kontak': "<i class='fas fa-phone icon'></i> Contact Information",
+                'label-telp': 'Phone No.:',
+                'telp-value': '+62 857-7072-9805',
+                'label-email': 'Email:',
+                'email-value': 'meilianasuryaniazhar09@gmail.com',
+                'title-riwayat-hidup': "<i class='fas fa-history icon'></i> Biography",
+                'riwayat-hidup-text': 'My name is Meiliana Suryani Azhar. I was born in Pekalongan on May 29, 2009. I started my education at SDN Palumbon sari 02 Karawang Timur, then continued to SMPN 2 Wonokerto, and now I am studying at SMK Ma\'arif NU Tirto majoring in Computer and Network Engineering. At school, I am actively involved in the English Community extracurricular activity. I hope one day I can work for a large technology company and help my family.',
+                'title-pendidikan': "<i class='fas fa-graduation-cap icon'></i> Education History",
+                'sd-label': 'Elementary School:',
+                'sd-value': 'SDN Palumbonsari 2 (2015-2021)',
+                'smp-label': 'Junior High School:',
+                'smp-value': 'SMPN 2 Wonokerto (2021-2024)',
+                'smk-label': 'Vocational High School:',
+                'smk-value': 'SMK Maarif NU Tirto',
+                'title-hobi': "<i class='fas fa-chart-line icon'></i> Hobbies & Activities",
+                'chart-title-1': 'Hobby Percentage',
+                'chart-title-2': 'Hobby Frequency in a Week',
+                'title-analisis': "<i class='fas fa-info-circle icon'></i> Analysis",
+                'hobi-tersering-label': 'Most Frequent Hobby:',
+                'hobi-tersering-value': 'Playing games (4-5 hours per day)',
+                'prestasi-label': 'Academic Achievement Percentage:',
+                'prestasi-value': '0%',
+                'analisis-text': 'Based on hobby data, the average time I spend on hobbies (playing games, watching movies, reading stories) is about 8-11 hours per day. So, in a week, the total time I dedicate to hobbies is approximately 56-77 hours.',
+                'title-skill': "<i class='fas fa-award icon'></i> Achievements & Skills",
+                'prestasi-label2': 'Achievements:',
+                'prestasi-value2': '-',
+                'skills-title': 'Skills',
+                'skill1': 'Basic computer operation',
+                'skill2': 'Simple image editing with Canva',
+                'skill3': 'Able to work in a team',
+                'interests-title': 'Interests',
+                'minat1': 'Technology and programming',
+                'minat2': 'Playing online & offline games',
+                'minat3': 'Listening to music & creating playlists',
+                'minat4': 'Reading novels, fiction stories, or comics',
+                'title-keagamaan': "<i class='fas fa-praying-hands icon'></i> Religious Values",
+                'keagamaan-1': 'Diligently perform religious duties',
+                'keagamaan-2': 'Participate in weekly recitations/Yasinan',
+                'keagamaan-3': 'Greet others with salam',
+                'keagamaan-4': 'Recite prayers before studying',
+                'keagamaan-5': 'Respect parents and teachers according to religious teachings',
+                'title-visi-misi': "<i class='fas fa-compass icon'></i> Vision & Mission",
+                'visi-title': 'Vision',
+                'visi-text': 'Achieve a good career in the field of technology while exploring the world.',
+                'misi-title': 'Mission',
+                'misi1': 'Study diligently and improve knowledge every day.',
+                'misi2': 'Participate in positive activities at school and outside.',
+                'misi3': 'Develop skills according to interests and talents.',
+                'misi4': 'Maintain a good attitude and behavior towards others.',
+                'misi5': 'Strive to help friends or people around who are in need.',
+                'title-cita-cita': "<i class='fas fa-bullseye icon'></i> Ambition & Hope",
+                'ambition-label': 'Ambition:',
+                'ambition-value': 'To become a successful entrepreneur to be able to create jobs for others.',
+                'hope-label': 'Future Hope:',
+                'hope-value': 'To get a job that matches my major so that the knowledge I have gained is not in vain. And I hope to graduate on time with good grades so I can make my parents proud.',
+                'quote-text': '"If you\'re too scared to make mistakes, you won\'t be able to do anything."',
+                'quote-cite': '- Vinsmoke Sanji'
+            },
+            'ar': {
+                'profile-name': 'ميليانا سورياني أزهار',
+                'profile-title': 'طالبة',
+                'title-biodata': "<i class='fas fa-user icon'></i> السيرة الذاتية",
+                'label-nama': 'الاسم:',
+                'nama-value': 'ميليانا سورياني أزهار',
+                'label-ttl': 'مكان وتاريخ الميلاد:',
+                'ttl-value': 'بيكالونجان، 29 مايو 2009',
+                'label-alamat': 'العنوان:',
+                'alamat-value': 'Werdi dukuh kedawung RT 3 RW 6, Wonokerto, Pekalongan',
+                'label-sekolah': 'المدرسة:',
+                'sekolah-value': 'SMK Maarif NU Tirto',
+                'title-kontak': "<i class='fas fa-phone icon'></i> معلومات الاتصال",
+                'label-telp': 'رقم الهاتف:',
+                'telp-value': '+62 857-7072-9805',
+                'label-email': 'البريد الإلكتروني:',
+                'email-value': 'meilianasuryaniazhar09@gmail.com',
+                'title-riwayat-hidup': "<i class='fas fa-history icon'></i> السيرة الذاتية",
+                'riwayat-hidup-text': 'اسمي ميليانا سورياني أزهار. وُلدتُ في بيكالونجان في 29 مايو 2009. بدأت تعليمي في مدرسة ابتدائية، ثم انتقلت إلى مدرسة إعدادية، والآن أدرس في مدرسة مهنية تخصص هندسة الكمبيوتر والشبكات. في المدرسة، أشارك بنشاط في نشاط المجتمع الإنجليزي اللامنهجي. آمل يومًا ما أن أتمكن من العمل في شركة تكنولوجيا كبيرة ومساعدة عائلتي.',
+                'title-pendidikan': "<i class='fas fa-graduation-cap icon'></i> تاريخ التعليم",
+                'sd-label': 'المدرسة الابتدائية:',
+                'sd-value': 'SDN Palumbonsari 2 (2015-2021)',
+                'smp-label': 'المدرسة الإعدادية:',
+                'smp-value': 'SMPN 2 Wonokerto (2021-2024)',
+                'smk-label': 'المدرسة المهنية:',
+                'smk-value': 'SMK Maarif NU Tirto',
+                'title-hobi': "<i class='fas fa-chart-line icon'></i> الهوايات والأنشطة",
+                'chart-title-1': 'نسبة الهوايات',
+                'chart-title-2': 'تكرار الهوايات في الأسبوع',
+                'title-analisis': "<i class='fas fa-info-circle icon'></i> تحليل",
+                'hobi-tersering-label': 'أكثر الهوايات تكراراً:',
+                'hobi-tersering-value': 'لعب الألعاب (4-5 ساعات يوميًا)',
+                'prestasi-label': 'نسبة الإنجاز الأكاديمي:',
+                'prestasi-value': '0%',
+                'analisis-text': 'بناءً على بيانات الهوايات، يبلغ متوسط الوقت الذي أمضيه في هواياتي (لعب الألعاب، مشاهدة الأفلام، قراءة القصص) حوالي 8-11 ساعة يوميًا. وبالتالي، في الأسبوع، يبلغ إجمالي الوقت الذي أخصصه للهوايات حوالي 56-77 ساعة.',
+                'title-skill': "<i class='fas fa-award icon'></i> الإنجازات والمهارات",
+                'prestasi-label2': 'الإنجازات:',
+                'prestasi-value2': '-',
+                'skills-title': 'المهارات',
+                'skill1': 'استخدام الكمبيوتر الأساسي',
+                'skill2': 'تحرير الصور البسيطة باستخدام كانفا',
+                'skill3': 'القدرة على العمل ضمن فريق',
+                'interests-title': 'الاهتمامات',
+                'minat1': 'التكنولوجيا والبرمجة',
+                'minat2': 'لعب الألعاب عبر الإنترنت وغير المتصلة',
+                'minat3': 'الاستماع إلى الموسيقى وإنشاء قوائم تشغيل',
+                'minat4': 'قراءة الروايات والقصص الخيالية أو القصص المصورة',
+                'title-keagamaan': "<i class='fas fa-praying-hands icon'></i> القيم الدينية",
+                'keagamaan-1': 'المواظبة على أداء الواجبات الدينية',
+                'keagamaan-2': 'المشاركة في مجالس التلاوة/ياسين الأسبوعية',
+                'keagamaan-3': 'إلقاء التحية بالسلام عند مقابلة الآخرين',
+                'keagamaan-4': 'قراءة الدعاء قبل الدراسة',
+                'keagamaan-5': 'احترام الوالدين والمعلمين وفقًا للتعاليم الدينية',
+                'title-visi-misi': "<i class='fas fa-compass icon'></i> الرؤية والرسالة",
+                'visi-title': 'الرؤية',
+                'visi-text': 'تحقيق مسيرة مهنية جيدة في مجال التكنولوجيا أثناء استكشاف العالم.',
+                'misi-title': 'الرسالة',
+                'misi1': 'الدراسة بجد وتحسين المعرفة كل يوم.',
+                'misi2': 'المشاركة في الأنشطة الإيجابية في المدرسة وخارجها.',
+                'misi3': 'تطوير المهارات وفقًا للاهتمامات والمواهب.',
+                'misi4': 'الحفاظ على موقف وسلوك جيد تجاه الآخرين.',
+                'misi5': 'السعي لمساعدة الأصدقاء أو الأشخاص المحتاجين.',
+                'title-cita-cita': "<i class='fas fa-bullseye icon'></i> الطموح والأمل",
+                'ambition-label': 'الطموح:',
+                'ambition-value': 'أن أصبح رائدة أعمال ناجحة لأتمكن من توفير فرص عمل للآخرين.',
+                'hope-label': 'أمل المستقبل:',
+                'hope-value': 'الحصول على وظيفة تتناسب مع تخصصي حتى لا تضيع المعرفة التي اكتسبتها. وآمل أن أتخرج في الوقت المحدد بدرجات جيدة لأتمكن من أن أجعل والدي فخورين.',
+                'quote-text': '"إذا كنت خائفًا جدًا من ارتكاب الأخطاء، فلن تتمكن من فعل أي شيء."',
+                'quote-cite': '- فينسموك سانجي'
+            },
+            'jv': {
+                'profile-name': 'Meiliana Suryani Azhar',
+                'profile-title': 'Siswi',
+                'title-biodata': "<i class='fas fa-user icon'></i> Biodata",
+                'label-nama': 'Jeneng:',
+                'nama-value': 'Meiliana Suryani Azhar',
+                'label-ttl': 'Panggonan, Tanggal Lahir:',
+                'ttl-value': 'Pekalongan, 29 Mei 2009',
+                'label-alamat': 'Alamat:',
+                'alamat-value': 'Werdi dukuh kedawung RT 3 RW 6, Wonokerto, Pekalongan',
+                'label-sekolah': 'Sekolah:',
+                'sekolah-value': 'SMK Maarif NU Tirto',
+                'title-kontak': "<i class='fas fa-phone icon'></i> Info Kontak",
+                'label-telp': 'Nomer Telpon:',
+                'telp-value': '+62 857-7072-9805',
+                'label-email': 'Email:',
+                'email-value': 'meilianasuryaniazhar09@gmail.com',
+                'title-riwayat-hidup': "<i class='fas fa-history icon'></i> Riwayat Urip",
+                'riwayat-hidup-text': 'Jenengku Meiliana Suryani Azhar. Aku lair ing Pekalongan tanggal 29 Mei 2009. Aku miwiti sekolah ing SDN Palumbon sari 02 Karawang Timur, banjur nerusake menyang SMPN 2 Wonokerto, lan saiki aku sinau ing SMK Ma\'arif NU Tirto jurusan Teknik Komputer lan Jaringan. Ing sekolah, aku aktif melu ekstrakurikuler English Community. Aku ngarep-arep mbesuk bisa kerja ing perusahaan teknologi gedhe lan mbantu keluargaku.',
+                'title-pendidikan': "<i class='fas fa-graduation-cap icon'></i> Riwayat Pendidikan",
+                'sd-label': 'SD:',
+                'sd-value': 'SDN Palumbonsari 2 (2015-2021)',
+                'smp-label': 'SMP:',
+                'smp-value': 'SMPN 2 Wonokerto (2021-2024)',
+                'smk-label': 'SMK:',
+                'smk-value': 'SMK Maarif NU Tirto',
+                'title-hobi': "<i class='fas fa-chart-line icon'></i> Hobi lan Kagiyatan",
+                'chart-title-1': 'Persentase Hobi',
+                'chart-title-2': 'Frekuensi Hobi Seminggu',
+                'title-analisis': "<i class='fas fa-info-circle icon'></i> Analisis",
+                'hobi-tersering-label': 'Hobi sing paling sering tak lakoni:',
+                'hobi-tersering-value': 'Dolanan game (4-5 jam saben dina)',
+                'prestasi-label': 'Presentase Prestasi Akademik:',
+                'prestasi-value': '0%',
+                'analisis-text': 'Adhedhasar data hobi, rata-rata wektu sing tak entekake kanggo hobi (dolanan game, nonton film, maca crita) kira-kira 8-11 jam saben dina. Dadi, sajrone seminggu, total wektu sing tak gunakake kanggo hobi kira-kira 56-77 jam.',
+                'title-skill': "<i class='fas fa-award icon'></i> Prestasi & Keterampilan",
+                'prestasi-label2': 'Prestasi:',
+                'prestasi-value2': '-',
+                'skills-title': 'Keterampilan',
+                'skill1': 'Nglakokake komputer dhasar',
+                'skill2': 'Ngedit gambar gampang nganggo Canva',
+                'skill3': 'Bisa kerja tim',
+                'interests-title': 'Minat',
+                'minat1': 'Teknologi lan pemrograman',
+                'minat2': 'Dolanan game online & offline',
+                'minat3': 'Ngrungokake musik & nggawe playlist',
+                'minat4': 'Maca novel, crita fiksi, utawa komik',
+                'title-keagamaan': "<i class='fas fa-praying-hands icon'></i> Nilai Keagamaan",
+                'keagamaan-1': 'Sregep ibadah',
+                'keagamaan-2': 'Ndelok pengajian/yasinan saben minggu',
+                'keagamaan-3': 'Ngucap salam pas ketemu wong liya',
+                'keagamaan-4': 'Maca donga sadurunge sinau',
+                'keagamaan-5': 'Nghormati wong tuwa lan guru sesuai ajaran agama',
+                'title-visi-misi': "<i class='fas fa-compass icon'></i> Visi & Misi",
+                'visi-title': 'Visi',
+                'visi-text': 'Nggayuh karir sing apik ing bidang teknologi nalika njelajah donya.',
+                'misi-title': 'Misi',
+                'misi1': 'Sinau kanthi sregep lan ningkatake kawruh saben dina.',
+                'misi2': 'Melu kagiyatan positif ing sekolah utawa ing njaba.',
+                'misi3': 'Ngembanake keterampilan sesuai minat lan bakat.',
+                'misi4': 'Njaga sikap lan prilaku sing apik marang wong liya.',
+                'misi5': 'Ngupaya mbantu kanca utawa wong ing saubengé sing butuh pitulung.',
+                'title-cita-cita': "<i class='fas fa-bullseye icon'></i> Cita-cita & Pangarep-arep",
+                'ambition-label': 'Cita-cita:',
+                'ambition-value': 'Dadi pengusaha sukses supaya bisa mbukak lapangan kerja kanggo wong liya.',
+                'hope-label': 'Pangarep-arep Mbesuk:',
+                'hope-value': 'Entuk pegawean sing cocog karo jurusan supaya ilmu sing tak sinau ora muspra. Lan aku ngarep-arep bisa lulus sekolah tepat wektu kanthi biji sing apik supaya bisa nggawe wong tuwaku bangga.',
+                'quote-text': '"Yen kowe wedi banget salah, kowe ora bakal bisa nglakoni apa-apa."',
+                'quote-cite': '- Vinsmoke Sanji'
+            }
+        };
+
+        function setLanguage(lang) {
+            document.querySelectorAll('[data-id]').forEach(element => {
+                const id = element.getAttribute('data-id');
+                const translation = translations[lang][id];
+                if (translation) {
+                    if (id.startsWith('title-')) {
+                        // For titles, which contain HTML (icons)
+                        element.innerHTML = translation;
+                    } else if (id.startsWith('label-') || id.startsWith('prestasi-label') || id.startsWith('ambition-label') || id.startsWith('hope-label') || id.startsWith('skills-title') || id.startsWith('interests-title') || id.startsWith('visi-title') || id.startsWith('misi-title')) {
+                        // For labels ending with a colon
+                        element.textContent = translation + ':';
+                    } else {
+                        // For plain text content
+                        element.textContent = translation;
+                    }
+                }
+            });
+        }
+
+        // Fungsi yang sudah ada
+        function toggleCard(cardElement) {
+            const content = cardElement.querySelector('.card-content');
+            const isShowing = content.classList.contains('show');
+            document.querySelectorAll('.card .card-content.show').forEach(el => {
+                el.classList.remove('show');
+            });
+            if (!isShowing) {
+                content.classList.add('show');
+            }
+        }
+
+        function toggleQuoteModal() {
+            const modal = document.getElementById('quoteModal');
+            modal.style.display = (modal.style.display === "block") ? "none" : "block";
+        }
+
+        window.onclick = function(event) {
+            const modal = document.getElementById('quoteModal');
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        // Script untuk Chart.js
+        const hobiData = {
+            labels: ['Bermain Game', 'Menonton Film', 'Membaca Cerita'],
+            datasets: [{
+                data: [45, 35, 20],
+                backgroundColor: ['#D6708F', '#7BBF7D', '#7A7A7A'],
+                hoverOffset: 4
+            }]
+        };
+
+        const hobiPieChart = new Chart(document.getElementById('hobiPieChart'), {
+            type: 'doughnut',
+            data: hobiData,
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: { position: 'bottom', labels: { color: 'var(--text-dark)' } },
+                    tooltip: { callbacks: { label: (tooltipItem) => `${tooltipItem.label || ''}: ${tooltipItem.raw || 0}%` } }
+                }
+            }
+        });
+
+        const kegiatanData = {
+            labels: ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu', 'Minggu'],
+            datasets: [{
+                label: 'Bermain Game', data: [4, 5, 4, 5, 5, 5, 4], fill: false, borderColor: '#D6708F', tension: 0.1, pointBackgroundColor: '#D6708F', pointBorderColor: '#D6708F'
+            }, {
+                label: 'Menonton Film', data: [3, 4, 3, 4, 4, 4, 3], fill: false, borderColor: '#7BBF7D', tension: 0.1, pointBackgroundColor: '#7BBF7D', pointBorderColor: '#7BBF7D'
+            }, {
+                label: 'Membaca Cerita', data: [1, 2, 2, 1, 2, 2, 1], fill: false, borderColor: '#7A7A7A', tension: 0.1, pointBackgroundColor: '#7A7A7A', pointBorderColor: '#7A7A7A'
+            }]
+        };
+
+        const kegiatanLineChart = new Chart(document.getElementById('kegiatanLineChart'), {
+            type: 'line',
+            data: kegiatanData,
+            options: {
+                responsive: true,
+                plugins: { legend: { display: true, labels: { color: 'var(--text-dark)' } } },
+                scales: {
+                    x: { ticks: { color: 'var(--text-dark)' }, grid: { display: false } },
+                    y: { beginAtZero: true, max: 6, title: { display: true, text: 'Frekuensi (Jam)', color: 'var(--text-dark)' }, ticks: { stepSize: 1, color: 'var(--text-dark)' }, grid: { color: 'rgba(0, 0, 0, 0.1)' } }
+                }
+            }
+        });
+
+    </script>
+
+</body></html>
